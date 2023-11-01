@@ -1,5 +1,5 @@
 import checkIcon from "../../assets/check.png";
-import features from "../../assets/features.png";
+import Contact from "../Contact/Contact";
 
 const About = () => {
   return (
@@ -73,7 +73,7 @@ professionals can take on more clients and provide beJer service.
             </div>
           </div>
           <div>
-            <img src={features} alt="" />
+            <Contact></Contact>
           </div>
         </div>
       </div>
