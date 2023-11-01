@@ -5,7 +5,7 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink> Home </NavLink>
+        <NavLink to="/"> Home </NavLink>
       </li>
     </>
   );
@@ -46,7 +46,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <Link className="btn"> Login </Link>
+          <Link to="/login" className="btn">
+            Login
+          </Link>
         </div>
       </div>
     </>

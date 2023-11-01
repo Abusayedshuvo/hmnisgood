@@ -1,15 +1,16 @@
-import About from "./components/About/About";
-import Banner from "./components/Banner/Banner";
+import { Outlet } from "react-router-dom";
+
+import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Header/Navbar";
 
 function App() {
   return (
     <>
-      <div className="bg-[url('assets/bg.jpg')] bg-cover bg-center bg-blend-overlay bg-[#0000008a]">
+      <div className="bg-[url('assets/bg.svg')] bg-cover bg-center bg-blend-overlay bg-fixed bg-[#0000004d] pb-12">
         <Navbar></Navbar>
-        <Banner></Banner>
+        <Outlet></Outlet>
+        <Footer></Footer>
       </div>
-      <About></About>
     </>
   );
 }
