@@ -36,26 +36,26 @@ const Registration = () => {
   };
   return (
     <div>
-      <div className="max-w-3xl mx-auto text-white bg-[#34055B] rounded-xl m-20 p-14">
+      <div className="max-w-3xl mx-auto text-whit bg-white/80 rounded-xl m-20 p-14">
         <h2 className="text-4xl text-center mb-10">Registration</h2>
 
         <form className="text-black" onSubmit={handleRegistration}>
           <input
-            className="w-full block p-4 mb-4"
+            className="w-full block p-4 mb-4 bg-slate-100"
             type="text"
             name="name"
             placeholder="Name"
             id=""
           />
           <input
-            className="w-full block p-4 mb-4"
+            className="w-full block p-4 mb-4 bg-slate-100"
             type="email"
             name="email"
             placeholder="Email Address"
             id=""
           />
           <input
-            className="w-full block p-4 mb-10"
+            className="w-full block p-4 mb-10 bg-slate-100"
             type="password"
             name="password"
             placeholder="Password"
@@ -63,7 +63,7 @@ const Registration = () => {
           />
           <div className="text-center">
             <input
-              className="p-4 w-1/2 mb-5 rounded-md bg-[#48e9d1] mt-10"
+              className="p-4 w-1/2 mb-5 rounded-md bg-[#FFD302] mt-10"
               type="submit"
               value="Register"
             />

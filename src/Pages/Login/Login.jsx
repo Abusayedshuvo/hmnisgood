@@ -71,18 +71,18 @@ const Login = () => {
   };
 
   return (
-    <div className="max-w-3xl mx-auto text-white bg-[#34055B] rounded-xl m-20 p-14">
+    <div className="max-w-3xl mx-auto text-whit bg-white/80 rounded-xl m-20 p-14">
       <h2 className="text-4xl text-center mb-10">Login</h2>
       <form className="text-black" onSubmit={handleUserLogin}>
         <input
-          className="p-4 w-full mb-5 rounded-md"
+          className="p-4 w-full mb-5 rounded-md bg-slate-100"
           placeholder="Email"
           type="email"
           name="email"
           id=""
         />
         <input
-          className="p-4 w-full mb-5 rounded-md"
+          className="p-4 w-full mb-5 rounded-md bg-slate-100"
           type="password"
           placeholder="Password"
           name="password"
@@ -90,7 +90,7 @@ const Login = () => {
         />
         <div className="text-center">
           <input
-            className="p-4 w-1/2 mb-5 rounded-md bg-[#48e9d1] mt-10"
+            className="p-4 w-1/2 mb-5 rounded-md bg-[#FFD302] mt-10"
             type="submit"
             value="Login"
           />

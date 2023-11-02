@@ -5,8 +5,8 @@ const About = () => {
   return (
     <>
       <div className="container mx-auto py-20">
-        <div className="grid lg:grid-cols-2 items-center gap-16 text-white">
-          <div className="p-8 bg-[#34055B] rounded-xl h-full">
+        <div className="grid lg:grid-cols-2 items-center gap-16 ">
+          <div className="p-8 bg-white/80 rounded-xl h-full">
             <h2 className="text-4xl font-semibold mb-10">Problem statement</h2>
             <p className="text-lg">
               {`About 80% of a tax professional’s time is consumed by siHing through
@@ -15,7 +15,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="p-8 bg-[#34055B] rounded-xl h-full">
+          <div className="p-8 bg-white/80 rounded-xl h-full">
             <h2 className="text-4xl font-semibold mb-10">Solution </h2>
             <p className="text-lg">
               {`WorkEasy uses enterprise AI models to automate data gathering and labeling and to group and
@@ -24,7 +24,7 @@ professionals can take on more clients and provide beJer service.
 `}
             </p>
           </div>
-          <div className="p-8 bg-[#34055B] rounded-xl h-full">
+          <div className="p-8 bg-white/80 rounded-xl h-full">
             <h2 className="text-4xl mb-8 font-semibold">
               Unique Selling Proposition
             </h2>
@@ -35,7 +35,7 @@ professionals can take on more clients and provide beJer service.
               processing.
             </p>
           </div>
-          <div className="p-8 bg-[#34055B] rounded-xl h-full ">
+          <div className="p-8 bg-white/80 rounded-xl h-full ">
             <h2 className="text-4xl mb-8 font-semibold">Value Proposition</h2>
             <p>
               Reduce 50% of the workload, freeing up tax professionals to
@@ -46,8 +46,8 @@ professionals can take on more clients and provide beJer service.
       </div>
 
       <div className="container mx-auto py-20">
-        <div className="grid lg:grid-cols-2 items-center gap-16 text-white">
-          <div className="p-8 bg-[#34055B] rounded-xl">
+        <div className="grid lg:grid-cols-2 items-center gap-16 ">
+          <div className="p-8 bg-white/80 rounded-xl">
             <h2 className="text-4xl font-semibold mb-6">
               Product/Service Features
             </h2>
